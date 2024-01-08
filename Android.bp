@@ -30,5 +30,6 @@ cc_library_static {
         "libdrm",
         "liblog",
     ],
+    header_libs: ["libhardware_headers"],
 
 }
